@@ -21,21 +21,25 @@
     <!-- /Foglio stile Css -->
   </head>
   <body>
-    <div class="container">
-      <div class="items">
-        <div class="item active">
-          <img src="./img/01.jpg" alt="lago" />
-          <img src="./img/02.jpg" alt="caselago" />
-          <img src="./img/03.jpg" alt="london" />
-          <img src="./img/04.jpg" alt="casabianca" />
-          <img src="./img/05.jpg" alt="maldive" />
+    <div class="carousel">
+      <div class="container">
+        <div class="items">
+          <div class="item active">
+            <img src="./img/01.jpg" alt="lago" />
+            <img class="hide" src="./img/02.jpg" alt="caselago" />
+            <img class="hide" src="./img/03.jpg" alt="london" />
+            <img class="hide" src="./img/04.jpg" alt="casabianca" />
+            <img class="hide" src="./img/05.jpg" alt="maldive" />
+          </div>
+          <div class="btn-carousel up">
+            <i class="fa-solid fa-chevron-up"></i>
+          </div>
+          <div class="btn-carousel down">
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
         </div>
-
-        <div class="prev"></div>
-        <div class="next"></div>
       </div>
     </div>
-
     <script src="js/main.js"></script>
   </body>
 </html>
